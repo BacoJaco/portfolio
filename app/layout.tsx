@@ -10,10 +10,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: siteConfig.name,
   description: siteConfig.author.description,
+  // Let Next.js handle the paths automatically!
   icons: {
-    icon: "/portfolio/icon.png",
-    apple: "/portfolio/apple-icon.png",
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
   },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
@@ -22,10 +24,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Favicons and App Icons */}
-        <link rel="icon" type="image/png" sizes="32x32" href="/portfolio/icon.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/portfolio/apple-icon.png" />
-        <link rel="manifest" href="/portfolio/manifest.json" />
+        {/* We removed the hardcoded link tags from here! */}
+
         {/* Umami Analytics - Only load if configured */}
         {siteConfig.analytics?.umami?.websiteId && (
           <Script

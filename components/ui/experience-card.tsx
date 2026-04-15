@@ -85,7 +85,7 @@ const ExperienceCard = ({
           >
             {logo ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={`/portfolio || ''}${logo}`} alt={companyName} className="object-cover w-full h-full" />
+              <img src={`/portfolio${logo}`} alt={companyName} className="object-cover w-full h-full" />
             ) : (
               <span className="text-sm font-medium text-muted-foreground uppercase">
                 {companyName.charAt(0)}
