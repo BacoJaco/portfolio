@@ -11,8 +11,8 @@ export const metadata: Metadata = {
   title: siteConfig.name,
   description: siteConfig.author.description,
   icons: {
-    icon: "/icon.png",
-    apple: "/apple-icon.png",
+    icon: "/portfolio/icon.png",
+    apple: "/portfolio/apple-icon.png",
   },
 };
 
@@ -23,9 +23,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         {/* Favicons and App Icons */}
-        <link rel="icon" type="image/png" sizes="32x32" href="/icon.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon.png" />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/portfolio/icon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/portfolio/apple-icon.png" />
+        <link rel="manifest" href="/portfolio/manifest.json" />
         {/* Umami Analytics - Only load if configured */}
         {siteConfig.analytics?.umami?.websiteId && (
           <Script

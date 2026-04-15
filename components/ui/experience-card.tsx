@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { basePath } from "@/next.config"; // Or hardcode it if that import fails
 
 type ExperienceCardProps = {
   id: number;
@@ -85,7 +86,7 @@ const ExperienceCard = ({
           >
             {logo ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={logo} alt={companyName} className="object-cover w-full h-full" />
+              <img src={`${basePath || ''}${logo}`} alt={companyName} className="object-cover w-full h-full" />
             ) : (
               <span className="text-sm font-medium text-muted-foreground uppercase">
                 {companyName.charAt(0)}
