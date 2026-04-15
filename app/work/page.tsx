@@ -1,5 +1,5 @@
 import ClientDither from "@/components/Dither/ClientDither";
-import { ArrowLeftIcon, GithubIcon, XIcon } from "@/components/icons";
+import { ArrowLeftIcon, GithubIcon, LinkedinIcon} from "@/components/icons";
 import Footer from "@/components/sections/footer";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
@@ -126,7 +126,7 @@ export default async function WorkPage() {
   }
 
   const { frontmatter, content } = workData;
-  const { github, twitter } = userData.personalInfo;
+  const { github, linkedin } = userData.personalInfo;
 
   return (
     <div className="min-h-screen relative">
@@ -155,8 +155,8 @@ export default async function WorkPage() {
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <Link target="_blank" href={twitter}>
-                <XIcon className="size-4" />
+              <Link target="_blank" href={linkedin}>
+                <LinkedinIcon className="size-4" />
               </Link>
             </Button>
             <ThemeToggle />
@@ -168,7 +168,7 @@ export default async function WorkPage() {
           <MDXRemote source={content} components={components} />
         </div>
       </div>
-      <Footer graph={false} />
+      <Footer/>
     </div>
   );
 }

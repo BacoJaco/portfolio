@@ -9,26 +9,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: siteConfig.name,
-  description: siteConfig.description,
+  description: siteConfig.author.description,
   icons: {
     icon: "/icon.png",
     apple: "/apple-icon.png",
-  },
-  openGraph: {
-    title: siteConfig.name,
-    description: siteConfig.description,
-    url: siteConfig.url,
-    images: [
-      {
-        url: "/openGraph.png?v=2",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: siteConfig.name,
-    description: siteConfig.description,
-    images: ["/openGraph.png?v=2"],
   },
 };
 

@@ -7,6 +7,7 @@ export const siteConfig = {
     email: "mclaughlinjacob2005@gmail.com",
     github: "https://github.com/BacoJaco",
     linkedin: "https://www.linkedin.com/in/jacob-mcl",
+    description: "Hello! I'm a Computer Science student at the University of California, Riverside with a strong interest in software engineering, AI, and full-stack development. I’m always seeking new opportunities to apply my skills and take on meaningful projects.",
   },
 
   // Leave empty objects or comment out sections you don't want to use
