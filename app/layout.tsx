@@ -10,10 +10,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: siteConfig.name,
   description: siteConfig.author.description,
-  // Let Next.js handle the paths automatically!
   icons: {
-    icon: "/icon.png",
-    apple: "/apple-icon.png",
+    icon: "/portfolio/icon.png",
+    apple: "/portfolio/apple-icon.png",
   },
   manifest: "/manifest.json",
 };
