@@ -50,7 +50,7 @@ const userData: UserData = {
     },
     {
       title: "UBI Web App",
-      description: "A web application for UCR's University Blood Initiative, built with Next.js and Tailwind CSS.",
+      description: "A web application for UCR's University Blood Initiative, built with Next.js and Tailwind CSS. To be released June 2026.",
       tags: ["Typescript", "Next.js", "Tailwind CSS"],
       Livelink: "https://www.youtube.com/@NullProj",
       gitHubLink: "https://github.com/acm-ucr/ubi-website",
@@ -74,7 +74,7 @@ const userData: UserData = {
     },
     {
       title: "AI Surveillance",
-      description: "Ar real-time surveillance system using YOLOv8 for object detection, built with Python and MQTT for communication.",
+      description: "A real-time surveillance system using YOLOv8 for object detection, built with Python and MQTT for communication.",
       tags: ["Python", "Computer Vision", "MQTT"],
       Livelink: "https://www.youtube.com/@NullProj",
       gitHubLink: "https://github.com/acm-ucr/surveillance-camera-team4",
@@ -98,7 +98,7 @@ const userData: UserData = {
     },
     {
       title: "Chess Analysis Tool",
-      description: "A tool for analyzing chess games and improving player performance, utilizing a custom JavaScript algorithm.",
+      description: "A tool for analyzing chess games and improving player performance by utilizing a custom JavaScript algorithm.",
       tags: ["JavaScript", "Next.js", "API Integration"],
       Livelink: "https://bacojaco.github.io/chessanalysis/",
       gitHubLink: "https://github.com/BacoJaco/chessanalysis",
