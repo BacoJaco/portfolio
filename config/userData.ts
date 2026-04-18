@@ -19,7 +19,7 @@ const userData: UserData = {
       startDate: "Apr 2026",
       endDate: "Present",
       link: "https://acm.cs.ucr.edu/programs/forge",
-      logo: "/portfolio/acmforge.webp",
+      logo: "/acmforge.webp",
       description:
         "Leading multiple sub-teams comprising of 15 total members to build an AI-powered surveillance system, coordinating feature delivery across Python and Next.js stacks\nMentoring team members on YOLOv8, Python multithreading, and MQTT, accelerating technical proficiency\nCoordinating weekly meetings to delegate tasks, track progress, and resolve technical blockers",
     },
@@ -30,7 +30,7 @@ const userData: UserData = {
       startDate: "Sep 2025",
       endDate: "Jan 2026",
       link: "https://gamespawn.github.io/",
-      logo: "/portfolio/gamespawn.PNG",
+      logo: "/gamespawn.PNG",
       description:
         "Led a team of 3 developers to design and build a multi-level game in Unity, coordinating technical direction\nDeveloped 7 interactive levels using C#, implementing core gameplay mechanics and player navigation systems\nDesigned the game using the Unity game engine, with full virtual reality and PC support",
     },
@@ -42,7 +42,7 @@ const userData: UserData = {
       tags: ["Python", "ROS", "A*"],
       Livelink: "https://www.youtube.com/@NullProj",
       gitHubLink: "https://www.youtube.com/watch?v=KDEyjlgQySA",
-      imageSrc: "/portfolio/lidar.png",
+      imageSrc: "/lidar.png",
       date: "Apr 2026 - Present",
       working: true, // set to false if the project is no longer maintained
       liveLinkAvailable: false, // set to false if the project doesn't have a live link
@@ -54,7 +54,7 @@ const userData: UserData = {
       tags: ["Typescript", "Next.js", "Tailwind CSS"],
       Livelink: "https://www.youtube.com/@NullProj",
       gitHubLink: "https://github.com/acm-ucr/ubi-website",
-      imageSrc: "/portfolio/UBI.png",
+      imageSrc: "/UBI.png",
       date: "Apr 2026 - Present",
       working: true, // set to false if the project is no longer maintained
       liveLinkAvailable: false, // set to false if the project doesn't have a live link
@@ -66,7 +66,7 @@ const userData: UserData = {
       tags: ["Typescript", "Next.js", "Tailwind CSS"],
       Livelink: "https://archery.ucrhighlanders.org/",
       gitHubLink: "https://github.com/acm-ucr/archery-website",
-      imageSrc: "/portfolio/archery.png",
+      imageSrc: "/archery.png",
       date: "Jan 2026 - Apr 2026",
       working: false, // set to false if the project is no longer maintained
       liveLinkAvailable: true, // set to false if the project doesn't have a live link
@@ -78,7 +78,7 @@ const userData: UserData = {
       tags: ["Python", "Computer Vision", "MQTT"],
       Livelink: "https://www.youtube.com/@NullProj",
       gitHubLink: "https://github.com/acm-ucr/surveillance-camera-team4",
-      imageSrc: "/portfolio/yolo.jpg",
+      imageSrc: "/yolo.jpg",
       date: "Jan 2026 - Apr 2026",
       working: false, // set to false if the project is no longer maintained
       liveLinkAvailable: false, // set to false if the project doesn't have a live link
@@ -90,7 +90,7 @@ const userData: UserData = {
       tags: ["C++", "Valgrind", "CMake"],
       Livelink: "https://www.youtube.com/@NullProj",
       gitHubLink: "https://github.com/BacoJaco/terminalcrossy",
-      imageSrc: "/portfolio/crossy.jpg",
+      imageSrc: "/crossy.jpg",
       date: "Sep 2026 - Dec 2025",
       working: false, // set to false if the project is no longer maintained
       liveLinkAvailable: false, // set to false if the project doesn't have a live link
@@ -102,7 +102,7 @@ const userData: UserData = {
       tags: ["JavaScript", "Next.js", "API Integration"],
       Livelink: "https://bacojaco.github.io/chessanalysis/",
       gitHubLink: "https://github.com/BacoJaco/chessanalysis",
-      imageSrc: "/portfolio/chess.jpg",
+      imageSrc: "/chess.jpg",
       date: "Aug 2025 - Sep 2025",
       working: false, // set to false if the project is no longer maintained
       liveLinkAvailable: true, // set to false if the project doesn't have a live link

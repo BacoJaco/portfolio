@@ -11,8 +11,8 @@ export const metadata: Metadata = {
   title: siteConfig.name,
   description: siteConfig.author.description,
   icons: {
-    icon: "/portfolio/icon.png",
-    apple: "/portfolio/apple-icon.png",
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
   },
   manifest: "/manifest.json",
 };
