@@ -21,7 +21,7 @@ const userData: UserData = {
       link: "https://acm.cs.ucr.edu/programs/forge",
       logo: "/acmforge.webp",
       description:
-        "Leading multiple sub-teams comprising of 15 total members to build an AI-powered surveillance system, coordinating feature delivery across Python and Next.js stacks\nMentoring team members on YOLOv8, Python multithreading, and MQTT, accelerating technical proficiency\nCoordinating weekly meetings to delegate tasks, track progress, and resolve technical blockers",
+        "Led 10 members across 5 sub-teams to deliver an AI-powered surveillance system, coordinating Python and Next.js development to launch a functional prototype 2 weeks before the original deadline\nMentored team members on YOLOv8, Python multithreading, and MQTT, boosting technical proficiency\nCoordinating weekly meetings to delegate tasks, track progress, and resolve technical blockers",
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ const userData: UserData = {
       link: "https://gamespawn.github.io/",
       logo: "/gamespawn.PNG",
       description:
-        "Led a team of 3 developers to design and build a multi-level game in Unity, coordinating technical direction\nDeveloped 7 interactive levels using C#, implementing core gameplay mechanics and player navigation systems\nDesigned the game using the Unity game engine, with full virtual reality and PC support",
+        "Led a team of 3 developers to design and build a multi-level Unity game, using Agile sprints and Git for version control, and set technical direction that enabled on-time delivery\nDeveloped 7 interactive levels using C#, implementing core gameplay mechanics and player navigation systems\nDesigned the game to support both virtual reality (Oculus) and PC platforms, ensuring cross-platform compatibility and expanding the potential player base",
     },
   ],
   projects: [
