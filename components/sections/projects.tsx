@@ -30,8 +30,9 @@ const Projects = () => {
               gitHubLink={project.gitHubLink}
               date={project.date}
               working={project.working}
-              liveLinkAvailable={project.liveLinkAvailable} // Add this
-              gitHubLinkAvailable={project.gitHubLinkAvailable} // Add this
+              liveLinkAvailable={project.liveLinkAvailable}
+              gitHubLinkAvailable={project.gitHubLinkAvailable}
+              details={project.details}
             />
           ))}
         </div>

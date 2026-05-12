@@ -36,6 +36,7 @@ export interface Project {
   working?: boolean;
   liveLinkAvailable?: boolean;
   gitHubLinkAvailable?: boolean;
+  details: string;
 }
 
 
