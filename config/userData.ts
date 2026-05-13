@@ -73,7 +73,7 @@ const userData: UserData = {
       working: false, // set to false if the project is no longer maintained
       liveLinkAvailable: true, // set to false if the project doesn't have a live link
       gitHubLinkAvailable: true, // set to false if the project doesn't have a GitHub link
-      details: "",
+      details: "• Developed a Next.js web application within a team of 10 for the UCR Archery Team, leveraging SSR (Server-Side Rendering) to reduce initial load times by ∼16-20% and improve SEO visibility\n• Implemented a responsive, mobile-first UI using Tailwind CSS, improving usability across desktop and mobile devices for 30+ student members",
     },
     {
       title: "AI Surveillance",
