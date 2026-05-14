@@ -21,7 +21,7 @@ const userData: UserData = {
       link: "https://acm.cs.ucr.edu/programs/forge",
       logo: "/acmforge.webp",
       description:
-        "Led 10 members across 5 sub-teams to deliver an AI-powered surveillance system, coordinating Python and Next.js development to launch a functional prototype 2 weeks before the original deadline\nMentored team members on YOLOv8, Python multithreading, and MQTT, boosting technical proficiency\nCoordinating weekly meetings to delegate tasks, track progress, and resolve technical blockers",
+        "Led 10 members across 5 sub-teams to deliver an AI-powered surveillance system, coordinating Python and Next.js development to launch a functional prototype 2 weeks before the original deadline\nMentored team members on YOLOv8, Python multithreading, and MQTT, boosting technical proficiency\nOversaw the development of a Next.js dashboard to display live camera feeds and YOLOv8 detections",
     },
     {
       id: 2,
@@ -47,7 +47,7 @@ const userData: UserData = {
       working: true, // set to false if the project is no longer maintained
       liveLinkAvailable: false, // set to false if the project doesn't have a live link
       gitHubLinkAvailable: false, // set to false if the project doesn't have a GitHub link
-      details: "• Developed the autonomy stack for a differential-drive robot designed for food delivery with4 team members, integrating ROS-based perception\n• Implemented A* path planning and GPS-tracking to compute optimal, collision-free trajectories in real time\n• Designed and integrated 2D LiDAR-based mapping and localization for environment perception\n• Integrated an Ultralytics YOLOv8 computer vision model to detect and dynamically avoid humans",
+      details: "• Developed the autonomy stack for a differential-drive robot designed for food delivery with 4 team members\n• Implemented A* path planning and GPS-tracking to compute optimal, collision-free trajectories in real time\n• Designed and integrated 2D LiDAR-based mapping and localization with ROS-based environment perception\n• Integrated an Ultralytics YOLOv8 computer vision model to detect and dynamically avoid humans",
     },
     {
       title: "UBI Web App",
@@ -60,7 +60,7 @@ const userData: UserData = {
       working: true, // set to false if the project is no longer maintained
       liveLinkAvailable: false, // set to false if the project doesn't have a live link
       gitHubLinkAvailable: true, // set to false if the project doesn't have a GitHub link
-      details: "• Developed a Next.js web application within a team of 8 for the UCR Chapter of University Blood Initiative, leveraging SSR (Server-Side Rendering) to reduce initial load times by ∼17-22% and improve SEO visibility\n• Implemented a responsive, mobile-first UI using Tailwind CSS, improving usability across desktop and mobile devices for 50+ student members",
+      details: "• Developed a Next.js web application within a team of 8 for the UCR Chapter of University Blood Initiative, leveraging SSR (Server-Side Rendering) to reduce initial load times by up to 70% and improve SEO visibility\n• Implemented a responsive, mobile-first UI using Tailwind CSS, improving usability across desktop and mobile devices for 50+ student members",
     },
     {
       title: "Archery Team Web App",
@@ -73,7 +73,7 @@ const userData: UserData = {
       working: false, // set to false if the project is no longer maintained
       liveLinkAvailable: true, // set to false if the project doesn't have a live link
       gitHubLinkAvailable: true, // set to false if the project doesn't have a GitHub link
-      details: "• Developed a Next.js web application within a team of 10 for the UCR Archery Team, leveraging SSR (Server-Side Rendering) to reduce initial load times by ∼16-20% and improve SEO visibility\n• Implemented a responsive, mobile-first UI using Tailwind CSS, improving usability across desktop and mobile devices for 30+ student members",
+      details: "• Developed a Next.js web application within a team of 10 for the UCR Archery Team, leveraging SSR (Server-Side Rendering) to reduce initial load times by up to 55% and improve SEO visibility\n• Implemented a responsive, mobile-first UI using Tailwind CSS, improving usability across desktop and mobile devices for 30+ student members",
     },
     {
       title: "AI Surveillance",
@@ -86,7 +86,7 @@ const userData: UserData = {
       working: false, // set to false if the project is no longer maintained
       liveLinkAvailable: false, // set to false if the project doesn't have a live link
       gitHubLinkAvailable: true, // set to false if the project doesn't have a GitHub link
-      details: "• Built a real-time surveillance system using Ultralytics YOLOv8 to detect people, vehicles, and objects, enabling automated monitoring in dynamic environments\n• Designed MQTT messaging pipeline handling 30+ messages/sec for real-time system updates\n• Integrated computer vision pipeline with hardware prototypes, bridging AI models with physical systems",
+      details: "• Built a real-time surveillance system using Ultralytics YOLOv8 to detect people, vehicles, and objects, enabling automated monitoring in dynamic environments\n• Designed MQTT messaging pipeline handling 30+ messages/sec for real-time system updates\n• Integrated the computer vision model with an ESP32 camera module, enabling real-time remote monitoring",
     },
     {
       title: "Crossy Road Clone",
@@ -99,7 +99,7 @@ const userData: UserData = {
       working: false, // set to false if the project is no longer maintained
       liveLinkAvailable: false, // set to false if the project doesn't have a live link
       gitHubLinkAvailable: true, // set to false if the project doesn't have a GitHub link
-      details: "• Designed a replica of Crossy Road with 3 team members, leveraging object-oriented principles in C++ and utilizing the terminal for visuals\n• Implemented agile methodologies using Kanban boards, UML diagrams and stand-up meetings to optimize development speed and team synchronization\n• Deployed CI/CD pipeline using Google Test to ensure 99% build stability during active development",
+      details: "• Designed a replica of Crossy Road with 3 team members, leveraging SOLID principles in C++ and utilizing the terminal for visuals\n• Implemented agile methodologies using Kanban boards, UML diagrams and stand-up meetings to optimize development speed and team synchronization\n• Deployed CI/CD pipeline using Google Test to ensure 99% build stability during active development",
     },
     {
       title: "Chess Analysis Tool",
