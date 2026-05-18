@@ -21,7 +21,7 @@ const userData: UserData = {
       link: "https://acm.cs.ucr.edu/programs/forge",
       logo: "/acmforge.webp",
       description:
-        "Led 10 members across 5 sub-teams to deliver an AI-powered surveillance system, coordinating Python and Next.js development to launch a functional prototype 2 weeks before the original deadline\nMentored team members on YOLOv8, Python multithreading, and MQTT, boosting technical proficiency\nOversaw the development of a Next.js dashboard to display live camera feeds and YOLOv8 detections",
+        "Led 10 members across 5 sub-teams to deliver an AI-powered surveillance system, coordinating Python and Next.js development to launch a functional prototype 2 weeks ahead of schedule\nMentored team members on YOLOv8, Python multithreading, and MQTT, boosting technical onboarding\nOversaw the development of a Next.js dashboard to display live camera feeds and YOLOv8 detections",
     },
     {
       id: 2,
@@ -47,7 +47,7 @@ const userData: UserData = {
       working: true, // set to false if the project is no longer maintained
       liveLinkAvailable: false, // set to false if the project doesn't have a live link
       gitHubLinkAvailable: false, // set to false if the project doesn't have a GitHub link
-      details: "• Developed the autonomy stack for a differential-drive robot designed for food delivery with 4 team members\n• Implemented A* path planning and GPS-tracking to compute optimal, collision-free trajectories in real time\n• Designed and integrated 2D LiDAR-based mapping and localization with ROS-based environment perception\n• Integrated an Ultralytics YOLOv8 computer vision model to detect and dynamically avoid humans",
+      details: "• Developed the autonomy stack for a differential-drive robot designed for food delivery with 4 team members\n• Implemented A* path planning and GPS-tracking to compute optimal, collision-free trajectories in real time\n• Designed and integrated 2D LiDAR-based mapping and localization with ROS-based environment perception\n• Integrated a YOLOv8 computer vision model to detect and dynamically avoid humans",
     },
     {
       title: "UBI Web App",
@@ -86,7 +86,7 @@ const userData: UserData = {
       working: false, // set to false if the project is no longer maintained
       liveLinkAvailable: false, // set to false if the project doesn't have a live link
       gitHubLinkAvailable: true, // set to false if the project doesn't have a GitHub link
-      details: "• Built a real-time surveillance system using Ultralytics YOLOv8 to detect people, vehicles, and objects, enabling automated monitoring in dynamic environments\n• Designed MQTT messaging pipeline handling 30+ messages/sec for real-time system updates\n• Integrated the computer vision model with an ESP32 camera module, enabling real-time remote monitoring",
+      details: "• Built a real-time multi-class detection system using YOLOv8, achieving over 90% accuracy across people, vehicles, and commmon objects in dynamic environments\n• Designed an MQTT messaging pipeline handling 30+ messages/sec for real-time perception output\n• Integrated the computer vision model with an ESP32 camera module, enabling live remote monitoring",
     },
     {
       title: "Crossy Road Clone",
@@ -99,7 +99,7 @@ const userData: UserData = {
       working: false, // set to false if the project is no longer maintained
       liveLinkAvailable: false, // set to false if the project doesn't have a live link
       gitHubLinkAvailable: true, // set to false if the project doesn't have a GitHub link
-      details: "• Designed a replica of Crossy Road with 3 team members, leveraging SOLID principles in C++ and utilizing the terminal for visuals\n• Implemented agile methodologies using Kanban boards, UML diagrams and stand-up meetings to optimize development speed and team synchronization\n• Deployed CI/CD pipeline using Google Test to ensure 99% build stability during active development",
+      details: "• Designed a replica of Crossy Road with 3 team members, leveraging SOLID principles in C++\n• Implemented agile methodologies using Kanban boards, UML diagrams and stand-up meetings to optimize development speed and team synchronization\n• Deployed CI/CD pipeline using Google Test to ensure 99% build stability during active development",
     },
     {
       title: "Chess Analysis Tool",
