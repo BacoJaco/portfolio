@@ -14,6 +14,17 @@ const userData: UserData = {
   experience: [
     {
       id: 1,
+      role: "Research Intern",
+      company: "Collaborative Intelligence Systems Lab",
+      startDate: "Jun 2026",
+      endDate: "Present",
+      link: "https://cisl.ucr.edu/",
+      logo: "https://ucr-cisl.github.io//assets/avatar/cisl.png",
+      description: "",
+    },
+    
+    {
+      id: 2,
       role: "Lead Computer Vision Engineer",
       company: "ACM@UCR:Forge",
       startDate: "Apr 2026",
@@ -24,7 +35,7 @@ const userData: UserData = {
         "Led 10 members across 5 sub-teams to deliver an AI-powered surveillance system, coordinating Python and Next.js development to launch a functional prototype 2 weeks ahead of schedule\nMentored team members on YOLOv8, Python multithreading, and MQTT, boosting technical onboarding\nOversaw the development of a Next.js dashboard to display live camera feeds and YOLOv8 detections",
     },
     {
-      id: 2,
+      id: 3,
       role: "Lead Game Developer",
       company: "GameSpawn",
       startDate: "Sep 2025",
