@@ -56,7 +56,7 @@ const contentButton = (
     >
       <div className="relative">
         <motion.div
-          className="relative overflow-hidden flex"
+          className="relative overflow-hidden flex whitespace-nowrap"
           style={{
             fontSize: `${textSize}px`,
             lineHeight: `${textSize + 1.5}px`,
@@ -65,7 +65,7 @@ const contentButton = (
         >
           {/* Spacer text that gives the container its width */}
           <span
-            className="text-transparent"
+            className="text-transparent whitespace-nowrap"
             style={{ fontSize: `${textSize}px` }}
           >
             {text}

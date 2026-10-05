@@ -8,7 +8,7 @@ import { Suspense } from "react";
 
 export default function Page() {
   return (
-    <div className="flex flex-col h-full lg:max-w-4xl overflow-clip mx-auto relative">
+    <div className="flex flex-col h-full w-[92vw] max-w-7xl overflow-clip mx-auto relative">
       <Header />
       <LinesBG />
       <About />

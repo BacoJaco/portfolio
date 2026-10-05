@@ -25,6 +25,12 @@ export interface Experience {
   description: string;
 }
 
+export interface ProjectMedia {
+  type: "image" | "video";
+  src: string;
+  alt?: string;
+}
+
 export interface Project {
   title: string;
   description: string;
@@ -32,6 +38,8 @@ export interface Project {
   Livelink?: string;
   gitHubLink: string | null;
   imageSrc?: string;
+  /** Slideshow of images/videos shown on the left of a project. Falls back to imageSrc. */
+  media?: ProjectMedia[];
   date: string;
   working?: boolean;
   liveLinkAvailable?: boolean;

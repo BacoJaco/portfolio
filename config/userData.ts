@@ -3,14 +3,14 @@ import type { UserData } from "@/types";
 const userData: UserData = {
   personalInfo: {
     name: "JACOB MCLAUGHLIN",
-    profession: "Computer Science@UCR",
+    profession: "Computer Science@UCSD",
     email: "mclaughlinjacob2005@gmail.com",
     github: "https://github.com/BacoJaco",
     linkedin: "https://www.linkedin.com/in/jacob-mcl",
     resume: "/Jacob_McLaughlin_Resume.pdf",
   },
   about:
-    "Hello! I'm a Computer Science student at the University of California, Riverside with a strong interest in software engineering, AI, and full-stack development. I’m always seeking new opportunities to apply my skills and take on meaningful projects.",
+    "Hello! I'm a Computer Science student at the University of California, San Diego with a strong interest in software engineering, AI, and full-stack development. I’m always seeking new opportunities to apply my skills and take on meaningful projects.",
   experience: [
     {
       id: 1,
@@ -20,15 +20,16 @@ const userData: UserData = {
       endDate: "Present",
       link: "https://cisl.ucr.edu/",
       logo: "https://ucr-cisl.github.io//assets/avatar/cisl.png",
-      description: "",
+      description:
+        "Reverse-engineered a commercial-grade differential-drive robot's undocumented interfaces for use on UCR's campus, gaining full control of sensor and control pipelines built around MPC-based obstacle avoidance\nDeployed a full end-to-end indoor autonomous navigation stack, building a custom LiDAR map with FAST-LIO, and achieving 95% goal-reaching success rate over 40 trials\nBuilt an outdoor GPS campus navigation system from scratch in Python/ROS with ENU projection, Dijkstra planner, and a pure-pursuit follower routing over a 45-building graph, completing routes of up to 0.25 miles\nIntegrated OmniVLA-edge under the obstacle avoidance system to navigate unknown environments, with an 85% success rate for goals up to 5 meters",
     },
     
     {
       id: 2,
-      role: "Lead Computer Vision Engineer",
+      role: "Project Lead",
       company: "ACM@UCR:Forge",
       startDate: "Apr 2026",
-      endDate: "Present",
+      endDate: "Jun 2026",
       link: "https://acm.cs.ucr.edu/programs/forge",
       logo: "/acmforge.webp",
       description:
@@ -48,43 +49,73 @@ const userData: UserData = {
   ],
   projects: [
     {
+      title: "Autonomous Campus Navigation",
+      description:
+        "An end-to-end autonomous navigation stack for a commercial-grade differential-drive robot, deployed for indoor and outdoor campus navigation at UCR's Collaborative Intelligence Systems Lab.",
+      tags: ["Python", "ROS", "LiDAR", "FAST-LIO"],
+      Livelink: "https://cisl.ucr.edu/",
+      gitHubLink: null,
+      imageSrc: "/research/navigation.png",
+      // Drop your files in public/research/ with these names (or rename below).
+      media: [
+        { type: "image", src: "/research/navigation.png", alt: "Autonomous navigation robot" },
+        { type: "video", src: "/research/navigation-1.mp4" },
+        { type: "video", src: "/research/navigation-2.mp4" },
+      ],
+      date: "Jun 2026 - Present",
+      working: true, // set to false if the project is no longer maintained
+      liveLinkAvailable: false, // set to false if the project doesn't have a live link
+      gitHubLinkAvailable: false, // set to false if the project doesn't have a GitHub link
+      details:
+        "• Reverse-engineered a commercial-grade differential-drive robot's undocumented interfaces, gaining full control of sensor and control pipelines built around MPC-based obstacle avoidance\n• Deployed a full end-to-end indoor autonomous navigation stack, building a custom LiDAR map with FAST-LIO and achieving a 95% goal-reaching success rate over 40 trials\n• Built an outdoor GPS campus navigation system from scratch in Python/ROS with ENU projection, a Dijkstra planner, and a pure-pursuit follower routing over a 45-building graph, completing routes of up to 0.25 miles\n• Integrated OmniVLA-edge under the obstacle avoidance system to navigate unknown environments, with an 85% success rate for goals up to 5 meters",
+    },
+    {
       title: "LiDAR Delivery",
       description: "A LiDAR-powered differential-drive robot designed to autonomously navigate and deliver food on campus.",
       tags: ["Python", "ROS", "A*"],
       Livelink: "https://www.youtube.com/@NullProj",
       gitHubLink: "https://www.youtube.com/watch?v=KDEyjlgQySA",
       imageSrc: "/lidar.png",
-      date: "Apr 2026 - Present",
-      working: true, // set to false if the project is no longer maintained
+      // Add more images/videos here to build a per-project slideshow.
+      // Each item: { type: "image" | "video", src: "/path", alt?: "..." }
+      // If omitted, the slideshow falls back to imageSrc above.
+      media: [{ type: "image", src: "/lidar.png", alt: "LiDAR Delivery robot" }],
+      date: "Apr 2026 - Jun 2026",
+      working: false, // set to false if the project is no longer maintained
       liveLinkAvailable: false, // set to false if the project doesn't have a live link
       gitHubLinkAvailable: false, // set to false if the project doesn't have a GitHub link
       details: "• Developed the autonomy stack for a differential-drive robot designed for food delivery with 4 team members\n• Implemented A* path planning and GPS-tracking to compute optimal, collision-free trajectories in real time\n• Designed and integrated 2D LiDAR-based mapping and localization with ROS-based environment perception\n• Integrated a YOLOv8 computer vision model to detect and dynamically avoid humans",
     },
     {
-      title: "UBI Web App",
-      description: "A web application for UCR's University Blood Initiative, built with Next.js and Tailwind CSS. To be released June 2026.",
-      tags: ["Typescript", "Next.js", "Tailwind CSS"],
-      Livelink: "https://www.youtube.com/@NullProj",
-      gitHubLink: "https://github.com/acm-ucr/ubi-website",
-      imageSrc: "/UBI.png",
-      date: "Apr 2026 - Present",
-      working: true, // set to false if the project is no longer maintained
-      liveLinkAvailable: false, // set to false if the project doesn't have a live link
-      gitHubLinkAvailable: true, // set to false if the project doesn't have a GitHub link
-      details: "• Developed a Next.js web application within a team of 8 for the UCR Chapter of University Blood Initiative, leveraging SSR (Server-Side Rendering) to reduce initial load times by up to 70% and improve SEO visibility\n• Implemented a responsive, mobile-first UI using Tailwind CSS, improving usability across desktop and mobile devices for 50+ student members",
+      title: "AI Short-Form Video Clipper",
+      description: "A full-stack SaaS that turns long videos into captioned, speaker-tracked 9:16 clips through an async processing pipeline.",
+      tags: ["Typescript", "Next.js", "Python", "Celery"],
+      Livelink: "https://clipsifter.com",
+      gitHubLink: null,
+      imageSrc: "/clipsifter.png",
+      // Add a screenshot at public/clipsifter.png (or swap in a media slideshow).
+      date: "Jun 2026 - Aug 2026",
+      working: false, // set to false if the project is no longer maintained
+      liveLinkAvailable: true, // set to false if the project doesn't have a live link
+      gitHubLinkAvailable: false, // set to false if the project doesn't have a GitHub link
+      details: "• Built and deployed a full-stack SaaS (Next.js on Vercel, Python/Celery worker on Railway) that turns long videos into captioned 9:16 clips via an async pipeline over Redis, Postgres, and Cloudflare R2\n• Implemented word-synced karaoke captions, LLM moment selection, and Groq-hosted Whisper transcription\n• Engineered speaker-tracked reframing with OpenCV YuNet face detection and crop panning\n• Built a Redis/Celery job queue with idempotent processing and Stripe billing on a per-user usage ledger",
     },
     {
-      title: "Archery Team Web App",
-      description: "A web application for UCR's Archery Team, built with Next.js and Tailwind CSS.",
+      title: "University Web Applications",
+      description: "Next.js web applications for several UC student organizations, including Cyber @ UCR, UCR's Archery Team, and the University Blood Initiative.",
       tags: ["Typescript", "Next.js", "Tailwind CSS"],
       Livelink: "https://archery.ucrhighlanders.org/",
       gitHubLink: "https://github.com/acm-ucr/archery-website",
-      imageSrc: "/archery.png",
-      date: "Jan 2026 - Apr 2026",
+      imageSrc: "/UBI.png",
+      media: [
+        { type: "image", src: "/UBI.png", alt: "University Blood Initiative website" },
+        { type: "image", src: "/archery.png", alt: "Archery Team website" },
+      ],
+      date: "Jan 2026 - Aug 2026",
       working: false, // set to false if the project is no longer maintained
       liveLinkAvailable: true, // set to false if the project doesn't have a live link
       gitHubLinkAvailable: true, // set to false if the project doesn't have a GitHub link
-      details: "• Developed a Next.js web application within a team of 10 for the UCR Archery Team, leveraging SSR (Server-Side Rendering) to reduce initial load times by up to 55% and improve SEO visibility\n• Implemented a responsive, mobile-first UI using Tailwind CSS, improving usability across desktop and mobile devices for 30+ student members",
+      details: "• Developed a Next.js web application within a team of 8 for Cyber @ UCR (and previously UCR's Archery Team and University Blood Initiative), leveraging SSR (Server-Side Rendering) to reduce initial load times by up to 70% and improve SEO visibility\n• Implemented a responsive, mobile-first UI using Tailwind CSS, improving usability across desktop and mobile devices for 50+ student members",
     },
     {
       title: "AI Surveillance",

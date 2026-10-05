@@ -9,7 +9,7 @@ const Header = () => {
   const { name, profession, github, linkedin } = userData.personalInfo;
 
   return (
-    <div className="w-full lg:max-w-4xl">
+    <div className="w-full">
       <div className="p-4 pt-12 w-full mx-auto border-border border-dashed border-x border-b">
         <div className="flex items-center gap-4 justify-between">
           <Link href="/" className="flex flex-col items-start gap-2 justify-center">
