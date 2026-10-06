@@ -73,7 +73,7 @@ const userData: UserData = {
       title: "AI Short-Form Video Clipper",
       description: "A full-stack SaaS that turns long videos into captioned, speaker-tracked 9:16 clips through an async processing pipeline.",
       tags: ["Typescript", "Next.js", "Python", "Celery"],
-      Livelink: "https://clipsifter.com",
+      Livelink: "https://clipper-one-drab.vercel.app/",
       gitHubLink: null,
       imageSrc: "/clipsifter1.png",
       media: [
