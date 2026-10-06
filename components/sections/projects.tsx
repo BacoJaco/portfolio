@@ -52,8 +52,13 @@ const Projects = () => {
         {/* Full-width project slide: media on the left, summary on the right */}
         <div className="relative">
           <div className="grid grid-cols-1 items-stretch gap-4 md:h-[22rem] md:grid-cols-2">
-            {/* Left: media slideshow */}
-            <ProjectMediaCarousel media={media} title={project.title} />
+            {/* Left: media slideshow. Keyed by project so the carousel's
+                internal slide index resets when switching projects. */}
+            <ProjectMediaCarousel
+              key={index}
+              media={media}
+              title={project.title}
+            />
 
             {/* Right: text summary */}
             <div className="flex min-h-0 flex-col justify-between gap-3 overflow-hidden rounded-xl border border-dashed bg-white p-4 shadow-xs dark:bg-background/50">

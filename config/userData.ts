@@ -55,12 +55,12 @@ const userData: UserData = {
       tags: ["Python", "ROS", "LiDAR", "FAST-LIO"],
       Livelink: "https://cisl.ucr.edu/",
       gitHubLink: null,
-      imageSrc: "/research/navigation.png",
-      // Drop your files in public/research/ with these names (or rename below).
+      imageSrc: "/research/campus-nav.png",
       media: [
-        { type: "image", src: "/research/navigation.png", alt: "Autonomous navigation robot" },
-        { type: "video", src: "/research/navigation-1.mp4" },
-        { type: "video", src: "/research/navigation-2.mp4" },
+        { type: "video", src: "/research/campus-nav-1.mp4" },
+        { type: "video", src: "/research/campus-nav-2.mp4" },
+        { type: "video", src: "/research/campus-nav-3.mp4" },
+        { type: "image", src: "/research/campus-nav.png", alt: "Autonomous navigation robot" },
       ],
       date: "Jun 2026 - Present",
       working: true, // set to false if the project is no longer maintained
@@ -68,6 +68,23 @@ const userData: UserData = {
       gitHubLinkAvailable: false, // set to false if the project doesn't have a GitHub link
       details:
         "• Reverse-engineered a commercial-grade differential-drive robot's undocumented interfaces, gaining full control of sensor and control pipelines built around MPC-based obstacle avoidance\n• Deployed a full end-to-end indoor autonomous navigation stack, building a custom LiDAR map with FAST-LIO and achieving a 95% goal-reaching success rate over 40 trials\n• Built an outdoor GPS campus navigation system from scratch in Python/ROS with ENU projection, a Dijkstra planner, and a pure-pursuit follower routing over a 45-building graph, completing routes of up to 0.25 miles\n• Integrated OmniVLA-edge under the obstacle avoidance system to navigate unknown environments, with an 85% success rate for goals up to 5 meters",
+    },
+    {
+      title: "AI Short-Form Video Clipper",
+      description: "A full-stack SaaS that turns long videos into captioned, speaker-tracked 9:16 clips through an async processing pipeline.",
+      tags: ["Typescript", "Next.js", "Python", "Celery"],
+      Livelink: "https://clipsifter.com",
+      gitHubLink: null,
+      imageSrc: "/clipsifter1.png",
+      media: [
+        { type: "image", src: "/clipsifter1.png", alt: "ClipSifter dashboard" },
+        { type: "image", src: "/clipsifter2.png", alt: "ClipSifter clip output" },
+      ],
+      date: "Jun 2026 - Aug 2026",
+      working: false, // set to false if the project is no longer maintained
+      liveLinkAvailable: true, // set to false if the project doesn't have a live link
+      gitHubLinkAvailable: false, // set to false if the project doesn't have a GitHub link
+      details: "• Built and deployed a full-stack SaaS (Next.js on Vercel, Python/Celery worker on Railway) that turns long videos into captioned 9:16 clips via an async pipeline over Redis, Postgres, and Cloudflare R2\n• Implemented word-synced karaoke captions, LLM moment selection, and Groq-hosted Whisper transcription\n• Engineered speaker-tracked reframing with OpenCV YuNet face detection and crop panning\n• Built a Redis/Celery job queue with idempotent processing and Stripe billing on a per-user usage ledger",
     },
     {
       title: "LiDAR Delivery",
@@ -87,27 +104,14 @@ const userData: UserData = {
       details: "• Developed the autonomy stack for a differential-drive robot designed for food delivery with 4 team members\n• Implemented A* path planning and GPS-tracking to compute optimal, collision-free trajectories in real time\n• Designed and integrated 2D LiDAR-based mapping and localization with ROS-based environment perception\n• Integrated a YOLOv8 computer vision model to detect and dynamically avoid humans",
     },
     {
-      title: "AI Short-Form Video Clipper",
-      description: "A full-stack SaaS that turns long videos into captioned, speaker-tracked 9:16 clips through an async processing pipeline.",
-      tags: ["Typescript", "Next.js", "Python", "Celery"],
-      Livelink: "https://clipsifter.com",
-      gitHubLink: null,
-      imageSrc: "/clipsifter.png",
-      // Add a screenshot at public/clipsifter.png (or swap in a media slideshow).
-      date: "Jun 2026 - Aug 2026",
-      working: false, // set to false if the project is no longer maintained
-      liveLinkAvailable: true, // set to false if the project doesn't have a live link
-      gitHubLinkAvailable: false, // set to false if the project doesn't have a GitHub link
-      details: "• Built and deployed a full-stack SaaS (Next.js on Vercel, Python/Celery worker on Railway) that turns long videos into captioned 9:16 clips via an async pipeline over Redis, Postgres, and Cloudflare R2\n• Implemented word-synced karaoke captions, LLM moment selection, and Groq-hosted Whisper transcription\n• Engineered speaker-tracked reframing with OpenCV YuNet face detection and crop panning\n• Built a Redis/Celery job queue with idempotent processing and Stripe billing on a per-user usage ledger",
-    },
-    {
       title: "University Web Applications",
       description: "Next.js web applications for several UC student organizations, including Cyber @ UCR, UCR's Archery Team, and the University Blood Initiative.",
       tags: ["Typescript", "Next.js", "Tailwind CSS"],
-      Livelink: "https://archery.ucrhighlanders.org/",
+      Livelink: "https://cyber.ucrhighlanders.org/",
       gitHubLink: "https://github.com/acm-ucr/archery-website",
-      imageSrc: "/UBI.png",
+      imageSrc: "/cyber.png",
       media: [
+        { type: "image", src: "/cyber.png", alt: "Cyber @ UCR website" },
         { type: "image", src: "/UBI.png", alt: "University Blood Initiative website" },
         { type: "image", src: "/archery.png", alt: "Archery Team website" },
       ],

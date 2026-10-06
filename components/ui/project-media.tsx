@@ -13,7 +13,8 @@ type ProjectMediaCarouselProps = {
 const ProjectMediaCarousel = ({ media, title }: ProjectMediaCarouselProps) => {
   const [index, setIndex] = useState(0);
   const count = media.length;
-  const current = media[index];
+  // Guard against a stale index if the media list ever shrinks underneath us.
+  const current = media[Math.min(index, count - 1)];
 
   const go = (next: number) => setIndex((next + count) % count);
 
